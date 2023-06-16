@@ -11,6 +11,7 @@ Provides patches for widely used http libraries to make them work in Pyodide env
 # 1. Install this package
 import micropip
 await micropip.install('pyodide-http')
+await micropip.install("requests")
 
 # 2. Patch requests
 import pyodide_http
